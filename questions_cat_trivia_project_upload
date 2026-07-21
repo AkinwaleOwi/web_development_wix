@@ -1,0 +1,34 @@
+question? Can I upload a html, css and javascript containing web project to directly to my wix website?
+
+===========================================================================================
+answer: 
+No, you cannot directly upload or import a traditional HTML/CSS/JavaScript web project folder into Wix. 
+
+Wix relies on its own visual rendering engine and proprietary hosting structure. 
+It does not support standard server-file hosting where you can drag and drop an index.html file alongside a stylesheet and a script file.
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+However, you can integrate your custom frontend code into a Wix site using a few official workarounds:
+
+1111111111111111111111111111111111111111111111111111
+
+1. Embed Code using an iFrame (Best for self-contained components)
+You can embed your custom HTML, inline CSS, and JavaScript directly into a specific section of your page using the Embed HTML tool.
+How to do it: Open the Wix Editor, click Add Elements (+), select Embed Code, and choose Embed HTML.Limitation: 
+The code runs in a sandboxed iframe. It cannot directly interact with the parent Wix page, its data collections, or other Wix elements.
+
+2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+
+2. External Hosting via iFrame (Best for full webpages)If your project is a complete webpage, you can host your HTML, CSS, and JS files for free
+on an external service (like GitHub Pages, Netlify, or Vercel) and pull the entire live project into Wix.
+
+How to do it: From the Embed Code menu in Wix, select Embed a Site. Paste the secure (https://) URL of your externally hosted project.
+
+3333333333333333333333333333333333333333333333333333333333333333333333333333333333333
+
+3. Use Wix Velo & Custom Elements (Best for advanced integration)If you want your custom code to natively interact with your Wix website, 
+you can use Wix Velo (their built-in JavaScript environment).
+
+How to do it: Turn on Dev Mode in the top bar of the editor. You can use Custom Elements to register your custom HTML/JS as a 
+reusable web component.Wix Studio CSS: If you are using Wix Studio, you also have access to a dedicated global Code Panel
+where you can write raw Custom CSS to style native Wix elements
