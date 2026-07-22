@@ -1,0 +1,15 @@
+Question?: Can I upload a html, css and javascript containing web project to directly to my wix website?
+
+====================================================================
+  
+Answer: with a workaround 
+  
+{{{{ 2 = Seems like the winner}}}}
+
+2. External Hosting via iFrame (Best for full webpages)If your project is a complete webpage, you can host your HTML, CSS, and JS files for free
+on an external service (like GitHub Pages, Netlify, or Vercel) and pull the entire live project into Wix.
+
+How to do it: From the Embed Code menu in Wix, select Embed a Site. Paste the secure (https://) URL of your externally hosted project.
+=============================================================================================================================
+
+Coa
