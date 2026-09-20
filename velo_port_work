@@ -1,0 +1,16 @@
+1. Make a copy of the existing quiz - done, if anything just getting the pics together again.
+
+1a. question pattern:
+
+timer - that stays above as questions go 
+"text - Welcome to Web Cat Trivia by Greene Aeration!"
+"text - Easy difficulty quiz #0!!!"
+  
+pic - pic tied to question
+true button - false buttons
+previous - next buttons
+submit  - button
+
+  
+
+  
