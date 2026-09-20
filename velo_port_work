@@ -2,14 +2,17 @@
 
 1a. question pattern:
 
-timer - that stays above as questions go 
-"text - Welcome to Web Cat Trivia by Greene Aeration!"
-"text - Easy difficulty quiz #0!!!"
+a. timer - that stays above as questions go 
+b. "text - Welcome to Web Cat Trivia by Greene Aeration!"
+c. "text - Easy difficulty quiz #0!!!"
   
-pic - pic tied to question
-true button - false buttons
-previous - next buttons
-submit  - button
+d. pic - pic tied to question
+e. true button - false buttons
+f. previous - next buttons
+g. submit  - button
 
 2.  **What does the existing JavaScript actually do?**
+~~beg of eye test
+a. timer 
+~~~end of eye test 
 
