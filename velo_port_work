@@ -12,10 +12,19 @@ f. previous - next buttons
 g. submit  - button
 
 2.  **What does the existing JavaScript actually do?**
-~~beg of eye test
+~~beg of eye test:
 a. timer 
-b. 
 
+bc. Chunk/meatus -  everything but the submit button 
+bc0. pics and questions are randomized as a chunk but:
+ -we need to see what the difference between the true button on #8 and #17 is, new buttons everytime?
+
+
+ so the chunk we're randomizing consists of :
+  b. displaying a pic
+  c. displaying its related question
+
+d. 
 
 ~~~end of eye test 
 
