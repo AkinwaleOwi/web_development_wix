@@ -2,29 +2,31 @@
 
 1a. question pattern:
 
-a. timer - that stays above as questions go 
-b. "text - Welcome to Web Cat Trivia by Greene Aeration!"
-c. "text - Easy difficulty quiz #0!!!"
+1aa. timer - that stays above as questions go 
+1ab. "text - Welcome to Web Cat Trivia by Greene Aeration!"
+1ac. "text - Easy difficulty quiz #0!!!"
   
-d. pic - pic tied to question
-e. true button - false buttons
-f. previous - next buttons
-g. submit  - button
+1ad. pic - pic tied to question
+1ae. true button - false buttons
+1af. previous - next buttons
+1ag. submit  - button
 
 2.  **What does the existing JavaScript actually do?**
 ~~beg of eye test:
-a. timer- ends at the test not per question. 
+2a. timer- ends at the test not per question. 
 
-bc. Chunk/meatus -  everything but the submit button 
-bc0. pics and questions are randomized as a chunk but:
- -we need to see what the difference between the true button on #8 and #17 is, new buttons everytime?
+2b. Chunk/meatus -  everything but the [(prev and next) + submit button ] below and the timer above gets randomzied each quiz.
+ -we need to see what the difference between the true button on #8 and #17 is, technically new buttons everytime just exact same color and spot so we cant tell?
+
+ 2ba.so the chunk we're randomizing consists of:
+  2baa. displaying a pic
+  2bab. displaying its related text not voice question
+  2bac. true button | | false button = is this where answers are saved as a person flits through questions
+
+2c. previous & next buttons - chunk mover
+2d. submit button - submits quiz, then clears the page and displays all the questions/answers + which ones they got right or wrong
 
 
- so the chunk we're randomizing consists of :
-  b. displaying a pic
-  c. displaying its related question
-
-d. 
 
 ~~~end of eye test 
 
