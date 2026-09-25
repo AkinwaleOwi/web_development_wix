@@ -29,4 +29,50 @@
 
 
 ~~~end of eye test 
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+# 3\. Learn just enough Velo to get started
+
+ I wouldn't try to learn the entire Velo platform.
+
+ I'd learn these concepts first:
+
+ ### `$w()`
+
+ This lets your code interact with Wix elements.
+
+ For example:
+
+```
+$w("#questionText").text = "How many toes does a cat have?";
+```
+
+ ### `.onClick()`
+
+ This lets you respond to a button click.
+
+```
+$w("#answerButton").onClick(() => {
+    // do something
+});
+```
+
+ ### `.show()` / `.hide()`
+
+ Useful for different quiz states.
+
+```
+$w("#resultsSection").hide();
+```
+
+ ### `.src`
+
+ Useful for changing the PNG.
+
+```
+$w("#questionImage").src = imageUrl;
+```
+
+ That's enough to build the first version.
+
+---
 
